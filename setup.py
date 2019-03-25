@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="work",
+    name="buddy",
     version="0.1",
     install_requires=[
         'click',
@@ -9,6 +9,6 @@ setup(
     # console script entrypont
     entry_points='''
         [console_scripts]
-        work=launch:work
+        buddy=launch:work
     ''',
 )
