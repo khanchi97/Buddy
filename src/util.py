@@ -1,8 +1,6 @@
 # utilities
 import datetime
 
-__name__ = 'work.util'
-__package__ = 'work'
 def getdate():
     '''return current date'''
     today = datetime.date.today()
@@ -15,8 +13,5 @@ def getdate():
         d = '0' + d
     if len(m) < 2:
         m = '0' + m
-    date = '%s%s%s' % d, m, y
+    date = '%s%s%s' % (d, m, y)
     return date
-
-
-
